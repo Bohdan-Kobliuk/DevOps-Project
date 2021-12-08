@@ -32,6 +32,6 @@ pipeline {
                 sh ('terraform ${action} --auto-approve') 
         }
     }
-
+    }
    
 }
